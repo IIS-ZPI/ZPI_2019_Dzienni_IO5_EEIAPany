@@ -31,9 +31,14 @@ public class CommandBuilderTest {
     public void testIfReturnsGivenParameters() {
         assertThat("http://api.nbp.pl/api/exchangerates/rates/A/gbp/2018-11-11/" + dateFormat.format(today) + "/?format=json", is(command.getCommand()));
     }
-
+/*
     @Test
     public void faultyTest() {
         assertThat("http://api.nbp.pl/api/exchangerates/rates/A/gbp/2018-11-12/" + dateFormat.format(today) + "/?format=json", is(command.getCommand()));
+    }
+*/
+    @Test
+    public void goodTest() {
+        assertThat("http://api.nbp.pl/api/exchangerates/rates/A/gbp/2018-11-11/" + dateFormat.format(today) + "/?format=json", is(command.getCommand()));
     }
 }
