@@ -11,22 +11,34 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 public class CommandBuilderTest {
-    private CommandBuilder commandBuilder;
+    private Command command;
+    private DateFormat dateFormat;
+    private Date today;
 
     @Before
     public void setUp() throws Exception {
-        commandBuilder = new CommandBuilder();
+        CommandBuilder commandBuilder = new CommandBuilder();
+
+        commandBuilder.setCurrency("gbp");
+        commandBuilder.setDate("2018-11-11");
+        command = commandBuilder.build();
+
+        dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        today = new Date();
     }
 
     @Test
     public void testIfReturnsGivenParameters() {
-        commandBuilder.setCurrency("gbp");
-        commandBuilder.setDate("2018-11-11");
-        Command command = commandBuilder.build();
-
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        Date today = new Date();
-
+        assertThat("http://api.nbp.pl/api/exchangerates/rates/A/gbp/2018-11-11/" + dateFormat.format(today) + "/?format=json", is(command.getCommand()));
+    }
+/*
+    @Test
+    public void faultyTest() {
+        assertThat("http://api.nbp.pl/api/exchangerates/rates/A/gbp/2018-11-12/" + dateFormat.format(today) + "/?format=json", is(command.getCommand()));
+    }
+*/
+    @Test
+    public void goodTest() {
         assertThat("http://api.nbp.pl/api/exchangerates/rates/A/gbp/2018-11-11/" + dateFormat.format(today) + "/?format=json", is(command.getCommand()));
     }
 }
