@@ -32,7 +32,7 @@ public class App {
             while ((inputLine = in.readLine()) != null) {
                 content.append(inputLine);
             }
-            System.out.println(content);
+            System.out.println(content);//to drukuje JSONA xDDdDDDDDDDDDDDDDDDDDDDD
             in.close();
         } catch (Exception e) {
             e.printStackTrace();
