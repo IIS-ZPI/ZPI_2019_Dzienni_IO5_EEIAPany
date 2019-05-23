@@ -3,10 +3,10 @@ package app.JSONusing;
 import java.util.ArrayList;
 
 public class BigStaff {
-    String table;
-    String currency;
-    String code;
-    ArrayList<Staff> rates;
+    public String table;
+    public String currency;
+    public String code;
+    public ArrayList<Staff> rates;
 
     @Override
     public String toString() {
@@ -16,4 +16,5 @@ public class BigStaff {
                 "code = " + code + '\n' +
                 "rates = " + rates + '\n';
     }
+
 }
