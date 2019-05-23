@@ -1,0 +1,8 @@
+﻿ID,Work Item Type,Title 1,Title 2,Assigned To,State,Tags,Team Project,Stack Rank,Remaining Work,Area ID,Iteration Path,Area Path,Activity
+"24","Issue","writing code",,"Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI","999968378",,"2","ZPI\Sprin 2","ZPI",
+"25","Task",,"napisanie funkcjonalnego command buldiera","Wiktor <Wiktor756@gmail.com>","Done",,"ZPI",,,"2","ZPI\Sprin 2","ZPI",
+"26","Task",,"przetestowanie napisanej funkjconalności ","Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprin 2","ZPI",
+"16","Issue","zmiana systemu caigłej integracji",,"Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI","1000000000",,"2","ZPI\Sprin 2","ZPI",
+"27","Task",,"instalcaja jenkinsa na dockerze","Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprin 2","ZPI",
+"28","Task",,"konfiguracja jenkinsa","maciejleszczynski209376 <maciejleszczynski209376@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprin 2","ZPI",
+"29","Task",,"konfiguracja pipelinu ","Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprin 2","ZPI",
