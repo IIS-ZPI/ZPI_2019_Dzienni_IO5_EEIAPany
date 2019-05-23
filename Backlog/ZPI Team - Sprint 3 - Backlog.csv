@@ -1,0 +1,9 @@
+﻿ID,Work Item Type,Title 1,Title 2,Assigned To,State,Tags,Team Project,Stack Rank,Remaining Work,Area ID,Iteration Path,Area Path,Activity
+"21","Issue","Writing Code",,"Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI","1999955279",,"2","ZPI\Sprint 3","ZPI",
+"22","Task",,"Writing function which displays our data","maciejleszczynski209376 <maciejleszczynski209376@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
+"23","Task",,"Writing func to counting medaian","Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
+"30","Task",,"writing func to analyse sessions","Mateusz Barański <mateusz_baranski@outlook.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
+"17","Issue","Adding New Tests",,"Wiktor <Wiktor756@gmail.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
+"19","Task",,"adding good test","Wiktor <Wiktor756@gmail.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
+"20","Task",,"ading wrong test","Wiktor <Wiktor756@gmail.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
+"31","Task",,"adding console test","Wiktor <Wiktor756@gmail.com>","Done",,"ZPI",,,"2","ZPI\Sprint 3","ZPI",
