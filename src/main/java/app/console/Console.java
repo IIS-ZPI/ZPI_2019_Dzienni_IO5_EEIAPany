@@ -12,6 +12,7 @@ public class Console {
     private Scanner scanner;
     private CommandBuilder commandBuilder;
 
+    public int opcja;
     public Console() {
         scanner = new Scanner(System.in);
         commandBuilder = new CommandBuilder();
@@ -33,6 +34,7 @@ public class Console {
                 "3. Rozkad zmian miesięcznych");
 
         int x = scanner.nextInt();
+        opcja=x;
         scanner.nextLine();
         switch (x){
             default:
